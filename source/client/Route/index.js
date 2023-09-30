@@ -39,13 +39,7 @@ const AddedStep = () => {
   );
 };
 
-const Navigation = (_props) => {
-  const { jump, ...props } = _props;
-
-  useEffect(() => {
-    //jump(3);
-  }, [jump]);
-
+const Navigation = (props) => {
   return (
     <div className='d-flex btn-group align-self-end'>
       {props.current > 1 && (
