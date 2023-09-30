@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Steps, Step } from 'react-step-builder';
 
 const stepClassName = 'd-flex flex-column align-items-center mb-3';
