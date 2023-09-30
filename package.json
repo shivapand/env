@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "development:client": "env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode development --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
